@@ -1,6 +1,11 @@
 import About from "./components/about";
+import Contact from "./components/contact";
 import Hero from "./components/hero";
+import Hire from "./components/hire";
 import Navbar from "./components/navbar";
+import Services from "./components/services";
+import Testimonials from "./components/testimonials";
+
 
 const App = () => {
   return (
@@ -12,6 +17,10 @@ const App = () => {
         </div>
       </div>
       <About/>
+      <Services/>
+      <Testimonials/>
+      <Hire/>
+      <Contact/>
     </div>
   );
 };
