@@ -3,16 +3,20 @@ import Person from "../assets/person.png";
 const Hero = () => {
   const socialMedia = [
     {
-      initial: "FB",
-      link: "https://web.facebook.com/dario.echazu.7",
-    },
-    {
       initial: "LI",
       link: "https://www.linkedin.com/in/dario-echazu-508466232/",
     },
     {
       initial: "IG",
       link: "https://www.instagram.com/dario.echazu/",
+    },
+    {
+      initial: "GH",
+      link: "https://github.com/CanarioEchazu"
+    },
+    {
+      initial: "FB",
+      link: "https://web.facebook.com/dario.echazu.7",
     },
   ];
 
