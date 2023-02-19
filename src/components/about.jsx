@@ -17,8 +17,8 @@ const About = () => {
             handling large sums of money.
             Despite overcoming cancer after 20 rounds of chemotherapy in 2011, I have continued to grow
             and develop professionally by updating my full-stack development skills through platforms
-            like Platzy. I bring a combination of determination, skill, and a desire to inspire growth
-            and excellence within the team I work with.
+            like Platzy and also in SoyHenry.com . I bring a combination of determination, skill, and
+            a desire to inspire growth and excellence within the team I work with.
             In short, I am a committed professional who is always looking for ways 
             to push boundaries and exceed expectations
             </span>
