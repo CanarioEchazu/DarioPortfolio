@@ -1,28 +1,33 @@
 import Person from "../assets/person.png";
+import LinkedIn from "../assets/LinkedIn.png";
+import Instagram from "../assets/instagram.png";
+import Github from "../assets/github.png";
+import Facebook from "../assets/facebook.png";
 
 const Hero = () => {
   const socialMedia = [
     {
-      initial: "LI",
+      initial: <img src={LinkedIn} alt="LinkedIn" className="h-10 w-10" />,
       link: "https://www.linkedin.com/in/dario-echazu-508466232/",
     },
     {
-      initial: "IG",
+      initial: <img src={Instagram} alt="Instagram" className="h-10 w-10" />,
       link: "https://www.instagram.com/dario.echazu/",
     },
     {
-      initial: "GH",
-      link: "https://github.com/CanarioEchazu"
+      initial: <img src={Github} alt="Github" className="h-10 w-10" />,
+      link: "https://github.com/CanarioEchazu",
     },
-    {
-      initial: "FB",
-      link: "https://web.facebook.com/dario.echazu.7",
-    },
+    // {
+    //   initial: <img src={Facebook} alt="Facebook" className="h-10 w-10" />,
+    //   link: "https://web.facebook.com/dario.echazu.7",
+    // },
   ];
 
   return (
     <div className="relative">
-      <div className="inset-x-0 mt-8 flex items-center justify-center font-roboto-slab text-[50px] font-black uppercase tracking-tighter text-white md:absolute md:top-[15%] md:mt-[unset] md:text-[145px] lg:top-[10%] lg:text-[180px] xl:top-[15%] xl:text-[250px]">
+      <div className="inset-x-0 mt-8 flex items-center justify-center font-roboto-slab text-[30px] font-black uppercase tracking-tighter text-white md:absolute md:top-[15%] md:mt-[unset] md:text-[145px] lg:top-[10%] lg:text-[180px] xl:top-[15%] xl:text-[250px]"
+        style={{minWidth: "400px"}}>
         <span>Dario Echazu</span>
       </div>
       <div className="relative mx-auto flex h-full flex-col-reverse justify-center md:mt-8 md:max-w-none md:flex-row md:gap-x-6 xl:-mt-2">
@@ -40,13 +45,12 @@ const Hero = () => {
           </div>
           <div className="mb-4 text-justify text-[13px] font-medium text-light lg:max-w-[479px] lg:text-[15px]">
             <span>
-            I am passionate about continuously improving and growing
-            while utilizing my productive knowledge to make a positive impact.
-            I am open to exploring various roles within the industry,
-            but ultimately I am drawn towards positions that challenge me
-            to bring my skills to the next level and contribute
-            to the success of the team.
-
+              I am passionate about continuously improving and growing while
+              utilizing my productive knowledge to make a positive impact. I am
+              open to exploring various roles within the industry, but
+              ultimately I am drawn towards positions that challenge me to bring
+              my skills to the next level and contribute to the success of the
+team.
             </span>
           </div>
           <div className="text-right text-[13px] font-semibold text-accent md:mb-20 md:text-left lg:text-base">
