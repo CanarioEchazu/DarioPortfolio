@@ -2,7 +2,7 @@ import Person from "../assets/person.png";
 import LinkedIn from "../assets/LinkedIn.png";
 import Instagram from "../assets/instagram.png";
 import Github from "../assets/github.png";
-import Facebook from "../assets/facebook.png";
+// import Facebook from "../assets/facebook.png";
 
 const Hero = () => {
   const socialMedia = [
