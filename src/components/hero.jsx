@@ -43,7 +43,7 @@ const Hero = () => {
             <div className="absolute top-full right-0 h-[2px] w-3/4 bg-accent md:top-[120%] lg:top-[150%]" />
             <span>Full Stack</span>
           </div>
-          <div className="mb-4 text-justify text-[13px] font-medium text-light lg:max-w-[479px] lg:text-[15px] ">
+          <div className="mb-4 text-justify text-[13px] font-medium text-light lg:max-w-[340px] lg:text-[15px] ">
             <span>
               I am passionate about continuously improving and growing while
               utilizing my productive knowledge to make a positive impact. I am
