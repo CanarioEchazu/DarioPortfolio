@@ -55,10 +55,10 @@ team.
           </div>
           <div className="text-right text-[13px] font-semibold text-accent md:mb-20 md:text-left lg:text-base">
             <div>
-              <span>P: +54 9 387 453 33 37</span>
+              <span>+54 9 387 453 33 37</span>
             </div>
             <div>
-              <span>E: darioechazu@hotmail.com</span>
+              <span>darioechazu@hotmail.com</span>
             </div>
           </div>
           <div className="absolute top-[170%] right-0 flex flex-col items-center justify-end gap-y-[13px] gap-x-[30px] text-[15px] font-medium uppercase text-secondary md:relative md:flex-row">
