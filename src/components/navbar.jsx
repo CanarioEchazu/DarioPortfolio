@@ -1,5 +1,5 @@
 import { faBars } from "@fortawesome/free-solid-svg-icons";
-import { faPhone } from "@fortawesome/free-solid-svg-icons";
+import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Logo from "../assets/logo.png";
 
@@ -23,6 +23,8 @@ const Navbar = ({ handleSidebar }) => {
     },
   ];
 
+  const whatsappLink = "https://api.whatsapp.com/send/?phone=54387453337&text&type=phone_number&app_absent=0";
+
   return (
     <div className="flex items-center justify-between px-10 pt-[45px]">
       <div className="flex gap-x-[100px]">
@@ -42,9 +44,11 @@ const Navbar = ({ handleSidebar }) => {
         </div>
       </div>
       <div className="hidden gap-x-[30px] text-white lg:flex">
-        <div className="flex h-[40px] w-[40px] cursor-pointer items-center justify-center rounded-full bg-dark opacity-80 hover:opacity-100">
-          <FontAwesomeIcon icon={faPhone} className="-rotate-90" />
-        </div>
+        <a href={whatsappLink} target="_blank" rel="noreferrer">
+          <div className="flex h-[40px] w-[40px] cursor-pointer items-center justify-center rounded-full bg-dark opacity-80 hover:opacity-100">
+            <FontAwesomeIcon icon={faWhatsapp} />
+          </div>
+        </a>
         <a
           href={"/#contact-me"}
           className="rounded-lg bg-accent/90 px-4 py-2 font-poppins font-bold hover:bg-accent lg:text-base xl:text-lg"
