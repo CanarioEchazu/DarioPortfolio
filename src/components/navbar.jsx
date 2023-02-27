@@ -23,7 +23,7 @@ const Navbar = ({ handleSidebar }) => {
     },
   ];
 
-  const whatsappLink = "https://api.whatsapp.com/send/?phone=54387453337&text&type=phone_number&app_absent=0";
+  const whatsappLink = "https://api.whatsapp.com/send/?phone=549387453337&text&type=phone_number&app_absent=0";
 
   return (
     <div className="flex items-center justify-between px-10 pt-[45px]">
