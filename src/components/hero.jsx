@@ -1,10 +1,23 @@
-import Person from "../assets/person.png";
+import Person from "../assets/DarioEchazu.png";
 import LinkedIn from "../assets/LinkedIn.png";
 import Instagram from "../assets/instagram.png";
 import Github from "../assets/github.png";
 
 const Hero = () => {
-  const socialMedia = [    {      initial: <img src={LinkedIn} alt="LinkedIn" className="h-10 w-10" />,      link: "https://www.linkedin.com/in/dario-echazu-508466232/",    },    {      initial: <img src={Instagram} alt="Instagram" className="h-10 w-10" />,      link: "https://www.instagram.com/dario.echazu/",    },    {      initial: <img src={Github} alt="Github" className="h-10 w-10" />,      link: "https://github.com/CanarioEchazu",    },  ];
+  const socialMedia = [
+    {
+      initial: <img src={LinkedIn} alt="LinkedIn" className="h-10 w-10" />,
+      link: "https://www.linkedin.com/in/dario-echazu-508466232/",
+    },
+    {
+      initial: <img src={Instagram} alt="Instagram" className="h-10 w-10" />,
+      link: "https://www.instagram.com/dario.echazu/",
+    },
+    {
+      initial: <img src={Github} alt="Github" className="h-10 w-10" />,
+      link: "https://github.com/CanarioEchazu",
+    },
+  ];
 
   return (
     <div className="relative">
@@ -37,7 +50,7 @@ const Hero = () => {
               <span>+54 9 387 453 33 37</span>
             </div>
             <div>
-           <span>darioechazu@hotmail.com</span>
+              <span>darioechazu@hotmail.com</span>
             </div>
           </div>
           <div className="absolute top-[170%] right-0 flex flex-col items-center justify-end gap-y-[13px] gap-x-[30px] text-[15px] font-medium uppercase text-secondary md:relative md:flex-row">
