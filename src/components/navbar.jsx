@@ -31,11 +31,11 @@ const Navbar = ({ handleSidebar }) => {
     <div className="flex items-center justify-between px-10 pt-[45px]">
       <div className="flex gap-x-[100px]">
         <a href={"/"}>
-          <img
-            src={Logo}
-            className="h-[40px] w-[40px] rounded-md lg:rounded-lg xl:h-[60px] xl:w-[60px]"
-            alt="Logo"
-          />
+          <img 
+          src={Logo}
+          alt="Logo"
+          className="h-[40px] w-[40px] rounded-md lg:rounded-lg xl:h-[60px] xl:w-[60px]"
+      />
         </a>
         <div className="hidden items-center gap-x-[50px] font-roboto font-semibold text-white/80 lg:flex lg:text-base xl:text-xl">
           {navbarMenu.map((menu, i) => (
