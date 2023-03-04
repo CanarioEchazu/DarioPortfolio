@@ -48,7 +48,7 @@ const Navbar = ({ handleSidebar }) => {
       <div className="hidden gap-x-[30px] text-white lg:flex">
         <a href={whatsappLink} target="_blank" rel="noreferrer">
           <div className="flex h-[40px] w-[40px] cursor-pointer items-center justify-center rounded-full bg-dark opacity-80 hover:opacity-100">
-            <FontAwesomeIcon icon={faWhatsapp} />
+            <FontAwesomeIcon icon={faWhatsapp}  className="-rotate-90" />
           </div>
         </a>
         <a
